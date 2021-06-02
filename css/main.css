@@ -1,0 +1,104 @@
+/* TABELA */
+#tableCars {
+    width: 1000px;
+    text-align: center;
+
+    user-select: none;
+    border-collapse: collapse;
+    border: solid 2px black;
+
+    margin: 0 auto;
+}
+.button.green {
+    background-color: #00ff73;
+    border: solid 1px #00ff73;
+}
+
+.button.green:hover{
+    background-color: #fff;
+    border: solid 1px #00ff73;
+    color: #00ff73;
+}
+.button.yellow {
+    background-color: #2edb03;
+    border: solid 1px #2edb03;
+}
+
+.button.yellow:hover{
+    background-color: #fff;
+    border: solid 1px #2edb03;
+    color: #2edb03;
+}
+#tableCars thead th{
+    background-color: #81c8fd;
+}
+
+
+
+.button.red {
+    background-color: #726f6f;
+    border: solid 1px #726f6f;
+
+}
+
+.button.red:hover{
+    background-color: #fff;
+    border: solid 1px #726f6f;
+    color: #726f6f;
+}
+
+.button.blue {
+    background-color: #1fb6ff;
+    border: solid 1px #1fb6ff;
+}
+
+.button.blue:hover{
+    background-color: #fff;
+    border: solid 1px #1fb6ff;
+    color: #1fb6ff;
+}
+
+
+/* ********* */
+/* ********* */
+
+/* ********* */
+/* COMPROVANTES */
+.container-receipt{
+    width: calc(40px + 40vw);
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+.container-receipt header{
+    padding: 10px;
+    
+}
+
+.container-receipt h1{
+    border-bottom: solid 1.5px rgba(63, 63, 63, 0.849) ;
+}
+#tableCars thead th,
+#tableCars tbody td{
+    padding: 13px;
+}
+
+#tableCars thead th:last-child,
+#tableCars tbody td:last-child{
+    max-width: 200px;
+    text-align: center;
+}
+/* ********* */
+/* BOTÕES */
+.button{
+    border-style: none;
+    padding: 0 20px;
+    min-height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
